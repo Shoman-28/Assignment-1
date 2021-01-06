@@ -32,6 +32,11 @@ h2{
     padding: 10px 0;
     color: #41418c;
 }
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #363958;
+}
 p{
     
     margin-bottom: 30px;
@@ -39,6 +44,9 @@ p{
     padding: 10px 0;
     color: #847c7a;
     text-align: justify;
+}
+a{
+    text-decoration: none;
 }
 .orange-highliht{
     color: orange;
@@ -51,6 +59,7 @@ p{
     
     margin-bottom: 50px;
 }
+
 
 .half-width img{
     width: 100%;
@@ -136,20 +145,19 @@ p{
  }
 /* =======exprience section end========= */
 
-/* =======work inqure start======== */
+/* =======footer section start========= */
 .work-background{
     top: 80px;
-    bottom: 25px;
     background-image: url(../img/Group_33094_1.png);
     background-repeat: no-repeat;
     width: 70%;
     height: 240px;
     border-radius: 90px;
-    margin-left: 240px;
+    margin: 0 auto;
     position: relative;
 }
 .work-inqure span{
-    margin-left: 13%;
+    margin-left: 7%;
     margin-top: 9%;
     position: absolute;
     font-size: 40px;
@@ -159,28 +167,43 @@ p{
 
 }
 .work-inqure a{
-    margin-left: 76%;
-    margin-top: 9%;
+    margin-left: 80%;
+    margin-top: 8.5%;
     position: absolute;
 
 }
 
 
-/* =======work inqure end======== */
 
-/* =======footer section start========= */
-footer{
-    width: 100%;  
-    margin: 0 auto;
+.contract-area{
+    line-height: 50px;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 35px;
-    text-transform: uppercase;
-   
     
+
     
 }
-
+.contract-area .footer-h3{
+    color: gray;
+    margin-top: 105px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contract-area h3 a{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #363958;
+    
+    letter-spacing: normal;
+    text-transform: lowercase;
+}
+.social-icon a img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
 /* =======footer sec
 tion end========= */
